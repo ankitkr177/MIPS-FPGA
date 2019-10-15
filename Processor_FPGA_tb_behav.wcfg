@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Processor_FPGA_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Processor_FPGA_tb" />
+            <top_module name="dmem" />
+            <top_module name="imem" />
+            <top_module name="registers" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="122453552898fs"></ZoomStartTime>
+      <ZoomEndTime time="122509289421fs"></ZoomEndTime>
+      <Cursor1Time time="122500000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="121"></NameColumnWidth>
+      <ValueColumnWidth column_width="103"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/clr" type="logic">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/InstructionMemory_i/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/InstructionMemory_i/Instr" type="array">
+      <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider45">
+      <obj_property name="label">Register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/reg_file" type="array">
+      <obj_property name="ElementShortName">reg_file[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/A1" type="array">
+      <obj_property name="ElementShortName">A1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/A2" type="array">
+      <obj_property name="ElementShortName">A2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/A3" type="array">
+      <obj_property name="ElementShortName">A3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/reg_file[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/reg_file[6]" type="array">
+      <obj_property name="ElementShortName">[6][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/reg_file[9]" type="array">
+      <obj_property name="ElementShortName">[9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/reg_file[30]" type="array">
+      <obj_property name="ElementShortName">[30][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/reg_file[31]" type="array">
+      <obj_property name="ElementShortName">[31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/RegisterFile_i/WE3" type="logic">
+      <obj_property name="ElementShortName">WE3</obj_property>
+      <obj_property name="ObjectShortName">WE3</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider46">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/ALU_i/RD1" type="array">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/ALU_i/RD2" type="array">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/ALU_i/SignImm" type="array">
+      <obj_property name="ElementShortName">SignImm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SignImm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/ALU_i/SrcA" type="array">
+      <obj_property name="ElementShortName">SrcA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/ALU_i/SrcB" type="array">
+      <obj_property name="ElementShortName">SrcB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/ALU_i/ALUResult" type="array">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/ALU_i/ALUControl" type="array">
+      <obj_property name="ElementShortName">ALUControl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider48">
+      <obj_property name="label">DATA MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FF00FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/Mem2Reg" type="logic">
+      <obj_property name="ElementShortName">Mem2Reg</obj_property>
+      <obj_property name="ObjectShortName">Mem2Reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/address" type="array">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/a2" type="array">
+      <obj_property name="ElementShortName">a2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/ReadData" type="array">
+      <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/Result" type="array">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/dmem" type="array">
+      <obj_property name="ElementShortName">dmem[0:479][7:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem[0:479][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/c" type="other">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/dmem[120]" type="array">
+      <obj_property name="ElementShortName">[120][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[120][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/dmem[121]" type="array">
+      <obj_property name="ElementShortName">[121][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[121][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/dmem[122]" type="array">
+      <obj_property name="ElementShortName">[122][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[122][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/dmem[123]" type="array">
+      <obj_property name="ElementShortName">[123][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[123][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/dmem[124]" type="array">
+      <obj_property name="ElementShortName">[124][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[124][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/dmem[125]" type="array">
+      <obj_property name="ElementShortName">[125][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[125][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/dmem[126]" type="array">
+      <obj_property name="ElementShortName">[126][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[126][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_FPGA_tb/DataMemory_i/dmem[127]" type="array">
+      <obj_property name="ElementShortName">[127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[127][7:0]</obj_property>
+   </wvobject>
+</wave_config>
